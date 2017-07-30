@@ -1,0 +1,71 @@
+.sekce3 {
+  background: url("../img/background3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  z-index: 20;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  position: relative;
+  text-align: center;
+
+  .innerWrap {
+    position: relative;
+    min-height: 470px;
+  }
+
+  h2 {
+    margin: 0;
+    color: #EEECFF;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    .cara {
+      height: 1px;
+      width: 80px;
+      background: rgba(212,208,255,0.40);
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+
+    li {
+
+      div {
+        display: block;
+        margin-bottom: 51px;
+        margin-top: 0;
+      }
+
+      p {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 15px;
+        font-weight: 700;
+        color: #EEECFF;
+        margin-bottom: 30px;
+        margin-top: 0;
+      }
+
+      a {
+        color: #211958;
+        font-size: 15px;
+        text-decoration: none;
+        background: #fff;
+        padding: 11px 15px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .mail {
+        margin-top: -20px;
+      }
+    }
+  }
+}
