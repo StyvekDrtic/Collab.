@@ -12,7 +12,7 @@
 
   .levaCast {
     display: inline-block;
-    width: calc(100% - 350px - 25px);
+    width: calc(100% - 400px - 25px);
     height: calc(100%);
     max-width: 470px;
     margin-top: 80px;
@@ -31,6 +31,10 @@
       font-size: 18px;
       margin-top: 5px;
       margin-bottom: 30px;
+
+      @media screen and (max-width: 360px) {
+        margin-top: 5px;
+      }
     }
 
     p {
@@ -49,6 +53,11 @@
       margin-bottom: 80px;
       max-width: 100%;
       margin-top: 40px;
+    }
+
+    @media screen and (max-width: 550px) {
+      margin-top: 30px;
+      margin-bottom: 55px;
     }
   }
 
@@ -69,17 +78,7 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      width: calc(340px);
-
-      @media screen and (max-width: 770px) {
-        display: none;
-      }
-    }
-
-    .karta2 {
-      height: 350px;
-      width: 280px;
-      display: none;
+      width: calc(400px);
 
       @media screen and (max-width: 770px) {
         position: static;
@@ -87,17 +86,33 @@
         margin: 0 auto;
       }
 
-      @media screen and (max-width: 380px) {
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+
+    .karta2 {
+      height: 450px;
+      width: 350px;
+      display: none;
+
+      @media screen and (max-width: 600px) {
+        position: static;
+        display: block;
+        margin: 0 auto;
+      }
+
+      @media screen and (max-width: 400px) {
         display: none;
       }
     }
 
     .karta3 {
-      height: 350px;
-      width: 220px;
+      height: 380px;
+      width: 260px;
       display: none;
 
-      @media screen and (max-width: 380px) {
+      @media screen and (max-width: 400px) {
         position: static;
         display: block;
         margin: 0 auto;

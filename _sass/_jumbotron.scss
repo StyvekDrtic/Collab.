@@ -38,8 +38,16 @@
 
       .logoHeader {
         img {
-          height: 61px;
-          width: 61px;
+          height: 55px;
+          width: 55px;
+        }
+      }
+
+      .menuPolozky {
+        display: inline-block;
+
+        @media screen and (max-width: 675px) {
+          display: none;
         }
       }
     }
@@ -53,17 +61,31 @@
       text-decoration: none;
       padding: 10px 15px;
       margin-top: 12px;
+
+      @media screen and (max-width: 675px) {
+        margin-top: 9px;
+        padding: 8px 13px;
+      }
+    }
+
+    @media screen and (max-width: 550px) {
+      padding-top: 30px;
     }
   }
 
   .jumbotronText {
     margin-top: 100px;
+    padding-bottom: 50px;
 
     h4 {
       font-size: 18px;
       color: #B6AEFF;
       font-weight: 400;
       margin-bottom: 10px;
+
+      @media screen and (max-width: 550px) {
+        font-size: 16px;
+      }
     }
 
     h1 {
@@ -73,6 +95,11 @@
       max-width: 600px;
       margin-top: 0;
       margin-bottom: 25px;
+
+      @media screen and (max-width: 550px) {
+        font-size: 33px;
+        margin-bottom: 20px;
+      }
     }
 
     .cara {
@@ -89,10 +116,24 @@
       line-height: 27px;
       max-width: 520px;
       margin-top: 40px;
+
+      @media screen and (max-width: 550px) {
+        line-height: 25px;
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (max-width: 550px) {
+      margin-top: 40px;
     }
   }
 
   @media screen and (max-width: 1200px) {
     background-size: calc(100%/2.3 + 30px);
+  }
+
+  @media screen and (max-width: 550px) {
+    min-height: 555px;
+    background-size: calc(300px);
   }
 }
