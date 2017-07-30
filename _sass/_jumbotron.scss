@@ -1,0 +1,88 @@
+.jumbotron {
+  background: #fff;
+  background: url("../img/ilustrace.png");
+  background-position: calc(100% + 0px) calc(100% + 10px);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+
+  header {
+    padding-top: 40px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      vertical-align: middle;
+
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 50px;
+        list-style: none;
+
+        a {
+          color: #4C5672;
+          text-decoration: none;
+          font-size: 17px;
+        }
+      }
+
+      .logoHeader {
+        img {
+          height: 61px;
+          width: 61px;
+        }
+      }
+    }
+
+    .pridejSe {
+      float: right;
+      border: 3px solid $fialova;
+      color: $fialova;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: none;
+      padding: 11px 16px;
+      margin-top: 9px;
+    }
+  }
+
+  .jumbotronText {
+    margin-top: 150px;
+
+    h4 {
+      font-size: 20px;
+      color: #B6AEFF;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 45px;
+      color: $fialova;
+      font-weight: 400;
+      max-width: 600px;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+
+    .cara {
+      background: #D4D0FF;
+      height: 2px;
+      width: 100px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 16px;
+      color: #6A6D79;
+      letter-spacing: 0.5px;
+      line-height: 27px;
+      width: 520px;
+      margin-top: 40px;
+    }
+  }
+}
