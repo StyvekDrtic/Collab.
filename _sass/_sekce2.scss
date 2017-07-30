@@ -24,7 +24,8 @@
     p {
       color: #EEECFF;
       font-family: 'Roboto Mono', monospace;
-      font-size: 28px;
+      font-size: 25px;
+      line-height: 40px;
       font-weight: 400;
       font-style: italic;
       margin: 0;
@@ -40,7 +41,7 @@
     }
 
     span {
-      font-weight: 500;
+      font-weight: 300;
       font-size: 15px;
       color: #EEECFF;
     }
@@ -54,7 +55,7 @@
 
     h2 {
       color: #EEECFF;
-      font-weight: 500;
+      font-weight: 400;
       font-size: 32px;
       margin: 0;
       margin-bottom: 25px;
@@ -62,10 +63,10 @@
 
     p {
       margin: 0;
-      font-size: 16px;
+      font-size: 14px;
       color: #D4D0FF;
       letter-spacing: 0.5px;
-      line-height: 27px;
+      line-height: 25px;
       font-weight: 400;
     }
   }
