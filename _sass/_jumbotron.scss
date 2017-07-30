@@ -30,6 +30,10 @@
           text-decoration: none;
           font-size: 15px;
         }
+
+        @media screen and (max-width: 800px) {
+          margin-right: 20px;
+        }
       }
 
       .logoHeader {
@@ -83,8 +87,12 @@
       color: #6A6D79;
       letter-spacing: 0.5px;
       line-height: 27px;
-      width: 520px;
+      max-width: 520px;
       margin-top: 40px;
     }
+  }
+
+  @media screen and (max-width: 1200px) {
+    background-size: calc(100%/2.3 + 30px);
   }
 }

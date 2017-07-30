@@ -40,7 +40,7 @@ body {
 }
 
 section {
-
+  outline: 0 !important;
 }
 
 .innerWrap {
@@ -48,4 +48,8 @@ section {
   display: block;
   margin: 0 auto;
   padding: 0 50px;
+
+  @media screen and (max-width: 550px) {
+    padding: 0 30px;
+  }
 }
