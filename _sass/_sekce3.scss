@@ -18,7 +18,7 @@
   h2 {
     margin: 0;
     color: #EEECFF;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 32px;
     margin-bottom: 50px;
     padding-top: 50px;
@@ -37,6 +37,7 @@
     }
 
     li {
+      list-style: none;
 
       div {
         display: block;
@@ -47,7 +48,7 @@
       p {
         font-family: 'Roboto Mono', monospace;
         font-size: 15px;
-        font-weight: 700;
+        font-weight: 400;
         color: #EEECFF;
         margin-bottom: 30px;
         margin-top: 0;
@@ -59,8 +60,12 @@
         text-decoration: none;
         background: #fff;
         padding: 11px 15px;
-        font-weight: 700;
+        font-weight: 500;
         margin: 0;
+
+        &:hover {
+          background: #d4d0ff;
+        }
       }
 
       .mail {

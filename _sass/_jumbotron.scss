@@ -8,7 +8,7 @@
   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
   z-index: 10;
-  min-height: 700px;
+  min-height: 720px;
 
   header {
     padding-top: 40px;
@@ -22,13 +22,17 @@
       li {
         display: inline-block;
         vertical-align: middle;
-        margin-right: 50px;
+        margin-right: 45px;
         list-style: none;
 
         a {
           color: #4C5672;
           text-decoration: none;
-          font-size: 17px;
+          font-size: 15px;
+        }
+
+        @media screen and (max-width: 800px) {
+          margin-right: 20px;
         }
       }
 
@@ -42,13 +46,13 @@
 
     .pridejSe {
       float: right;
-      border: 3px solid $fialova;
+      border: 2px solid $fialova;
       color: $fialova;
       font-weight: bold;
-      font-size: 15px;
+      font-size: 13px;
       text-decoration: none;
-      padding: 11px 16px;
-      margin-top: 9px;
+      padding: 10px 15px;
+      margin-top: 12px;
     }
   }
 
@@ -56,7 +60,7 @@
     margin-top: 100px;
 
     h4 {
-      font-size: 20px;
+      font-size: 18px;
       color: #B6AEFF;
       font-weight: 400;
       margin-bottom: 10px;
@@ -65,7 +69,7 @@
     h1 {
       font-size: 45px;
       color: $fialova;
-      font-weight: 400;
+      font-weight: 300;
       max-width: 600px;
       margin-top: 0;
       margin-bottom: 25px;
@@ -79,12 +83,16 @@
     }
 
     p {
-      font-size: 16px;
+      font-size: 15px;
       color: #6A6D79;
       letter-spacing: 0.5px;
       line-height: 27px;
-      width: 520px;
+      max-width: 520px;
       margin-top: 40px;
     }
+  }
+
+  @media screen and (max-width: 1200px) {
+    background-size: calc(100%/2.3 + 30px);
   }
 }

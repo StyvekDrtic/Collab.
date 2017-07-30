@@ -12,13 +12,13 @@
 
   .levaCast {
     display: inline-block;
-    width: 50%;
-    height: calc(100% - 25px);
+    width: calc(100% - 350px - 25px);
+    height: calc(100%);
     max-width: 470px;
     margin-top: 80px;
 
     h2 {
-      font-weight: 500;
+      font-weight: 400;
       color: #EEECFF;
       font-size: 32px;
       margin-top: 0;
@@ -28,24 +28,33 @@
     h3 {
       font-weight: 400;
       color: #B6AEFF;
-      font-size: 20px;
-      margin-top: 15px;
+      font-size: 18px;
+      margin-top: 5px;
       margin-bottom: 30px;
     }
 
     p {
       margin: 0;
-      font-size: 16px;
+      font-size: 14px;
       color: #D4D0FF;
       letter-spacing: 0.5px;
-      line-height: 27px;
+      line-height: 25px;
       font-weight: 400;
+    }
+
+    @media screen and (max-width: 770px) {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 80px;
+      max-width: 100%;
+      margin-top: 40px;
     }
   }
 
   .pravaCast {
     display: inline-block;
-    width: 50%;
+    width: calc(100%);
     position: absolute;
     bottom: 0;
     right: 50px;
@@ -55,13 +64,49 @@
       -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
       -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
       box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-      max-width: 470px;
-      width: 100%;
+      width: 340px;
       background: #fff;
       position: absolute;
       bottom: 0;
       right: 0;
-      width: calc(100% - 50px - 25px);
+      width: calc(340px);
+
+      @media screen and (max-width: 770px) {
+        display: none;
+      }
+    }
+
+    .karta2 {
+      height: 350px;
+      width: 280px;
+      display: none;
+
+      @media screen and (max-width: 770px) {
+        position: static;
+        display: block;
+        margin: 0 auto;
+      }
+
+      @media screen and (max-width: 380px) {
+        display: none;
+      }
+    }
+
+    .karta3 {
+      height: 350px;
+      width: 220px;
+      display: none;
+
+      @media screen and (max-width: 380px) {
+        position: static;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    @media screen and (max-width: 770px) {
+      position: static;
+      display: block;
     }
   }
 }
